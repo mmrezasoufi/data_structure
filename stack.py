@@ -16,12 +16,12 @@ class Stack:
 
     def pop(self):
         if self.is_empty():
-            raise IndexError("Stack is empty")
+            raise Exception("Stack is empty")
         return self.data.pop()
 
     def top(self):
         if self.is_empty():
-            raise IndexError("Stack is empty")
+            raise Exception("Stack is empty")
         return self.data[-1]
 
 # running time for each operation is O(1)
