@@ -16,5 +16,4 @@ def is_matched(expression):
                 return False
             if right.index(char) != left.index(stack.pop()):
                 return False
-
     return stack.is_empty()
