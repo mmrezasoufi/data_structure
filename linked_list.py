@@ -10,9 +10,6 @@ class LinkedList:
         self._head = None
         self._tail = None
 
-    def __len__(self):
-        return self._size
-
     def is_empty(self):
         return self._head is None
 
